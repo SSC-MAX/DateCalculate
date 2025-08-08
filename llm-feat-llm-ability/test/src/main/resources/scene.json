@@ -1,0 +1,9 @@
+{
+  "scenePlan": "qwen3-235b",
+  "common": "qwen3-235b",
+  "deepseekV3": "dsv3",
+  "doubao1.6": "doubao1.6",
+  "doubao1.5": "doubao1.5",
+  "qwen3-235b": "qwen3-235b",
+  "kimi2": "kimi2"
+}

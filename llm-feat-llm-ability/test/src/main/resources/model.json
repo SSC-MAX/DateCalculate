@@ -1,0 +1,52 @@
+{
+  "qwen-max": {
+    "appKey": "sk-29425ff54bca470fb31e495c50b848e1",
+    "url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "model": "qwen-max",
+    "maxTokens": 8192,
+    "temperature": 0.1
+  },
+  "qwen3-32b": {
+    "appKey": "sk-d68c71a32aa84e41b29c5429613782da",
+    "url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "model": "qwen3-32b",
+    "maxTokens": 8192,
+    "temperature": 0.1
+  },
+  "qwen3-235b": {
+    "appKey": "sk-d68c71a32aa84e41b29c5429613782da",
+    "url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "model": "qwen3-235b-a22b",
+    "maxTokens": 8192,
+    "temperature": 0.1
+  },
+  "doubao1.5": {
+    "appKey": "2935bbf9-193f-449f-b41b-fac9e46e1945",
+    "url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "ep-20250527165450-vsffm",
+    "maxTokens": 8192,
+    "temperature": 0.1
+  },
+  "doubao1.6": {
+    "appKey": "2935bbf9-193f-449f-b41b-fac9e46e1945",
+    "url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "doubao-seed-1-6-250615",
+    "maxTokens": 8192,
+    "temperature": 0.1
+  },
+  "dsv3": {
+    "appKey": "2935bbf9-193f-449f-b41b-fac9e46e1945",
+    "url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "ep-20250527165558-d9b4j",
+    "maxTokens": 8192,
+    "temperature": 0.1
+  },
+  "kimi2": {
+    "appKey": "sk-BwiGCLfYzj9Tzmh0FcY5WCa3BkLzWt8oWHJlpEUb7J5xWnrB",
+    "url": "https://api.moonshot.cn/v1",
+    "model": "kimi-k2-0711-preview",
+    "maxTokens": 8192,
+    "temperature": 0.1
+
+  }
+}

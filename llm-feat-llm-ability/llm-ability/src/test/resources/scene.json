@@ -1,0 +1,6 @@
+{
+  "intentionRecognize": "doubao",
+  "sceneMatch": "qwen3-235b-thinking",
+  "toolPlan": "doubao",
+  "common": "qwen3-235b-thinking"
+}
