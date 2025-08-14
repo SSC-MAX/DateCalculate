@@ -16,8 +16,7 @@ def get_rewrite(client, input_text):
     return completion.choices[0].message.content
 
 if __name__ == '__main__':
-    # api-key-20250814161832
-    file_path = 'D:\\Projects\\GithubProjects\\DateCalculate\\T5Train\data\\v1\\train.csv'
+    file_path = 'D:\\Projects\\GithubProjects\\DateCalculate\\T5Train\data\\v1\\dev.csv'
     output_path = 'D:\\Projects\\GithubProjects\\DateCalculate\\T5Train\data\\v3'
 
     api_key = '846a5aad-87c5-4966-82e3-a5c684fb1bdd'
@@ -35,10 +34,10 @@ if __name__ == '__main__':
 
     print(f'================\nfile_path:{file_path}\noutput_path:{output_path}\n================')
 
-    for index in tqdm(range(600)):
+    for index in tqdm(range(len(df))):
         input_text = input_texts[index]
         target_text = target_texts[index]
-        rewrite_text = get_rewrite(client, input_text)
+        rewrite_text = '"' + get_rewrite(client, input_text) + '"'
         result.append({'input_text':rewrite_text, 'target_text':target_text})
 
     pd.DataFrame(result).to_csv(output_path+'\\train.csv', index=False)
