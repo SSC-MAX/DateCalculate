@@ -1,0 +1,220 @@
+[
+  {
+    "sentence": "图书馆将在下学期至14号21号闭馆整修，{time}重新开放。",
+    "time_phrases": [
+      {
+        "text": "下学期至14号21号",
+        "start": 5,
+        "end": 14,
+        "fields": {
+          "term": 1,
+          "month": "none",
+          "week": "none",
+          "weekday": "none",
+          "day": 21
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "图书馆将在25号，第2个月闭馆整修，{time}重新开放。",
+    "time_phrases": [
+      {
+        "text": "25号，第2个月",
+        "start": 5,
+        "end": 12,
+        "fields": {
+          "term": "none",
+          "month": 2,
+          "week": "none",
+          "weekday": "none",
+          "day": 25
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "请于周五到办公室领取{time}的活动门票。",
+    "time_phrases": [
+      {
+        "text": "周五",
+        "start": 2,
+        "end": 3,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": "none",
+          "weekday": 5,
+          "day": "none"
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "学校将在第48周至今天，30号放暑假，第7周至13号的第51周开学。",
+    "time_phrases": [
+      {
+        "text": "第48周至今天，30号",
+        "start": 4,
+        "end": 14,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 48,
+          "weekday": "none",
+          "day": 30
+        }
+      },
+      {
+        "text": "第7周至13号的第51周",
+        "start": 19,
+        "end": 30,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 51,
+          "weekday": "none",
+          "day": 13
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "第36周周四我们将进行期中考试，复习范围是{time}前讲过的内容。",
+    "time_phrases": [
+      {
+        "text": "第36周周四",
+        "start": 0,
+        "end": 5,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 36,
+          "weekday": 4,
+          "day": "none"
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "请于26号的第2个月到办公室领取5号第14周，上学期的活动门票。",
+    "time_phrases": [
+      {
+        "text": "26号的第2个月",
+        "start": 2,
+        "end": 9,
+        "fields": {
+          "term": "none",
+          "month": 2,
+          "week": "none",
+          "weekday": "none",
+          "day": 26
+        }
+      },
+      {
+        "text": "5号第14周，上学期",
+        "start": 16,
+        "end": 25,
+        "fields": {
+          "term": -1,
+          "month": "none",
+          "week": 14,
+          "weekday": "none",
+          "day": 5
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "第32周，第47周有一场重要的会议，记得参加。",
+    "time_phrases": [
+      {
+        "text": "第32周，第47周",
+        "start": 0,
+        "end": 8,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 47,
+          "weekday": "none",
+          "day": "none"
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "图书馆将在28号至第41周闭馆整修，{time}重新开放。",
+    "time_phrases": [
+      {
+        "text": "28号至第41周",
+        "start": 5,
+        "end": 12,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 41,
+          "weekday": "none",
+          "day": 28
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "考试成绩将于周天公布，第13周可以申请复查。",
+    "time_phrases": [
+      {
+        "text": "周天",
+        "start": 6,
+        "end": 7,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": "none",
+          "weekday": 7,
+          "day": "none"
+        }
+      },
+      {
+        "text": "第13周",
+        "start": 11,
+        "end": 14,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 13,
+          "weekday": "none",
+          "day": "none"
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "考试成绩将于6号的第45周公布，今天，下学期可以申请复查。",
+    "time_phrases": [
+      {
+        "text": "6号的第45周",
+        "start": 6,
+        "end": 12,
+        "fields": {
+          "term": "none",
+          "month": "none",
+          "week": 45,
+          "weekday": "none",
+          "day": 6
+        }
+      },
+      {
+        "text": "今天，下学期",
+        "start": 16,
+        "end": 21,
+        "fields": {
+          "term": 1,
+          "month": "none",
+          "week": "none",
+          "weekday": "none",
+          "day": 0
+        }
+      }
+    ]
+  }
+]

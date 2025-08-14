@@ -5,6 +5,12 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/LangChainProject/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/MultiTimeOfCourse/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/BERTTrain/.venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/BERTTrain/.venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/BERTTrain/.venv1/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/BERTTrain/.venv1/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/T5Train/.venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/T5Train/.venv/Scripts" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.13 (MultiTimeOfCourse)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

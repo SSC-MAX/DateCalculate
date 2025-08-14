@@ -1,0 +1,10 @@
+input_text,target_text
+上个月第三周星期五考试,"{""month"": ""-1"", ""week"": ""3"", ""weekday"": ""5"", ""day"": ""none"", ""term"": ""none""}"
+下学期第十六周开会,"{""month"": ""none"", ""week"": ""16"", ""weekday"": ""none"", ""day"": ""none"", ""term"": ""1""}"
+上上学期的第一周考试,"{""month"": ""none"", ""week"": ""1"", ""weekday"": ""none"", ""day"": ""none"", ""term"": ""-2""}"
+下下个月第三周星期一考核,"{""month"": ""2"", ""week"": ""3"", ""weekday"": ""1"", ""day"": ""none"", ""term"": ""none""}"
+上个月第二个周二开会,"{""month"": ""-1"", ""week"": ""2"", ""weekday"": ""2"", ""day"": ""none"", ""term"": ""none""}"
+本学期第十三周考试,"{""month"": ""none"", ""week"": ""13"", ""weekday"": ""none"", ""day"": ""none"", ""term"": ""0""}"
+上个月第一个周五开会,"{""month"": ""-1"", ""week"": ""1"", ""weekday"": ""5"", ""day"": ""none"", ""term"": ""none""}"
+下学期的第十五周考试,"{""month"": ""none"", ""week"": ""15"", ""weekday"": ""none"", ""day"": ""none"", ""term"": ""1""}"
+下个月星期日开会,"{""month"": ""1"", ""week"": ""none"", ""weekday"": ""7"", ""day"": ""none"", ""term"": ""none""}"
