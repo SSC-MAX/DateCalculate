@@ -15,9 +15,10 @@ def get_rewrite(client, prompt, input_text):
     return completion.choices[0].message.content
 
 if __name__ == '__main__':
-    file_path = 'D:\\Projects\\GithubProjects\\DateCalculate\\T5Train\data\\v3\\train_1000_p.csv'
-    output_path = 'D:\\Projects\\GithubProjects\\DateCalculate\\T5Train\data\\v3'
-    output_name = 'train_1000_p.csv'
+    # file_path_list = ['data/v3/train_1000_r.csv', 'data/v3/dev_200_r.csv']
+    # output_path_list = ['data/v3/train_1000_r_p.csv', 'data/v3/dev_200_r_p.csv']
+    file_path_list = ['data/v3/test_1000_r.csv']
+    output_path_list = ['data/v3/test_1000_r_p.csv']
 
     api_key = '846a5aad-87c5-4966-82e3-a5c684fb1bdd'
     prompt = """
@@ -33,19 +34,22 @@ if __name__ == '__main__':
         api_key=api_key
     )
 
-    df = pd.read_csv(file_path)
-    os.makedirs(output_path, exist_ok=True)
-    input_texts = [e for e in df['input_text']]
-    target_texts = [e for e in df['target_text']]
-    result = []
+    for i in range(len(file_path_list)):
+        file_path = file_path_list[i]
+        output_path = output_path_list[i]
 
-    print(f'================\nfile_path:{file_path}\noutput_path:{output_path}\n================')
+        df = pd.read_csv(file_path)
+        input_texts = [e for e in df['input_text']]
+        target_texts = [e for e in df['target_text']]
+        result = []
 
-    for index in tqdm(range(len(df))):
-        input_text = input_texts[index]
-        target_text = target_texts[index]
-        rewrite_text = '"' + get_rewrite(client, prompt, input_text) + '"'
-        result.append({'input_text':rewrite_text, 'target_text':target_text})
+        print(f'================\nfile_path:{file_path}\noutput_path:{output_path}\n================')
 
-    pd.DataFrame(result).to_csv(f'{output_path}\\{output_name}', index=False)
-    print(f'================完成================')
+        for index in tqdm(range(len(df))):
+            input_text = input_texts[index]
+            target_text = target_texts[index]
+            rewrite_text = '"' + get_rewrite(client, prompt, input_text) + '"'
+            result.append({'input_text': rewrite_text, 'target_text': target_text})
+
+        pd.DataFrame(result).to_csv(f'{output_path}', index=False)
+        print(f'================完成:{i}/{len(file_path_list)}================')

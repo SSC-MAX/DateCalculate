@@ -72,9 +72,9 @@ def delete_space(file_path, output_path, output_name):
 
 
 if __name__ == '__main__':
-    file_path = 'D:\Projects\GithubProjects\DateCalculate\T5Train\data\\v4\\train_1000.csv'
-    output_path = 'D:\Projects\GithubProjects\DateCalculate\T5Train\data\\v4\\'
-    output_name = 'train_1000_fix.csv'
+    file_path = 'data/v3/train_1000_r_p.csv'
+    output_path = 'data/v3'
+    output_name = 'train_1000_r_p_fix.csv'
 
     # delete_space(file_path, output_path, output_name)
 
