@@ -27,7 +27,6 @@ things = ["开会", "请假", "上课", "考试", "检查"]
 
 # 随机生成样本
 def generate_sample():
-    # 随机选择一个模板类型
     template_type = random.choice(["month_weekday", "day_only", "term_only"])
 
     if template_type == "month_weekday":
