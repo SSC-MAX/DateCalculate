@@ -1,0 +1,1 @@
+RTW中SVMM使用的训练数据集为`sentence-transformers/stsb`
